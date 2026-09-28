@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../MatchContract.cs" Link="MatchContract.cs" />
+    <Compile Include="../BridgeIpcClient.cs" Link="BridgeIpcClient.cs" />
+    <Compile Include="../KnifeRules.cs" Link="KnifeRules.cs" />
+    <Compile Include="../MatchTransition.cs" Link="MatchTransition.cs" />
+    <Compile Include="../MatchSession.cs" Link="MatchSession.cs" />
+    <Compile Include="../MatchEvents.cs" Link="MatchEvents.cs" />
+    <Compile Include="../MatchEventOutbox.cs" Link="MatchEventOutbox.cs" />
+    <Compile Include="../EventNoticeJournal.cs" Link="EventNoticeJournal.cs" />
+    <Compile Include="../MatchPauseState.cs" Link="MatchPauseState.cs" />
+    <Compile Include="../MatchChatCommands.cs" Link="MatchChatCommands.cs" />
+    <Compile Include="../DuelRules.cs" Link="DuelRules.cs" />
+    <Compile Include="../DemoNoticeJournal.cs" Link="DemoNoticeJournal.cs" />
+  </ItemGroup>
+</Project>

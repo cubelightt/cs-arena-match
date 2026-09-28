@@ -1,0 +1,13 @@
+bin/
+obj/
+*.pdb
+*.log
+*.dem
+.env*
+!.env.example
+
+# Local model instructions
+AGENTS.md
+CLAUDE.md
+.codex/
+.claude/
